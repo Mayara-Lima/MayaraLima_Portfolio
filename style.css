@@ -254,33 +254,22 @@ h2 {
 }
 
 
-/* Footer */
-footer {
-  background-color: #7600bc;
-  padding: 20px;
-  text-align: center;
-  max-width: 400px;
-  margin: 0 auto; 
+.github-icon {
+  color:#7600bc;
 }
 
-.footer-links {
-  display: flex;
-  justify-content: center;
+.github-button {
+  background-color: #f0f0f0; /* Cor de fundo suave */
+  color: #7600bc; 
+  border: none; /* Remove a borda */
+  padding: 10px 20px; /* Espaçamento interno */
+  border-radius: 5px; /* Borda arredondada */
+  cursor: pointer; /* Cursor de apontar */
+  font-size: 16px; /* Tamanho do texto */
 }
 
-.footer-link {
-  margin: 0 50px;
-}
-
-.footer-link a {
-  text-decoration: none;
-  color: lightgray;
-  display: flex;
-  align-items: center;
-}
-
-.footer-link img {
-  margin-right: 5px;
+.github-button:hover {
+  background-color: #ddd; /* Altera a cor de fundo ao passar o mouse */
 }
 
 
