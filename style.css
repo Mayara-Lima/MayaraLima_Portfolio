@@ -174,13 +174,13 @@ h2 {
 
 .projects-container hr {
   border: 1px solid lightgray;
-  width: 75%;
+  width: 65%;
   margin-left: 5cm;
 }
 
 .project-card {
   margin: 0 15px 15px 30px;
-  padding-bottom: 5px;
+  padding-bottom: 15px;
 }
 
 .project-card h3 {
@@ -259,20 +259,45 @@ h2 {
 }
 
 .github-button {
-  background-color: #f0f0f0; /* Cor de fundo suave */
+  background-color: #f0f0f0;
   color: #7600bc; 
-  border: none; /* Remove a borda */
-  padding: 10px 20px; /* Espaçamento interno */
-  border-radius: 5px; /* Borda arredondada */
-  cursor: pointer; /* Cursor de apontar */
-  font-size: 16px; /* Tamanho do texto */
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer; 
+  font-size: 16px;
 }
 
 .github-button:hover {
-  background-color: #ddd; /* Altera a cor de fundo ao passar o mouse */
+  background-color: #ddd;
 }
 
 
+/* Footer */
+footer {
+  background-color: #7600bc;
+  color: lightgray;
+  padding: 20px;
+  text-align: center;
+  margin-top: 1cm;
+  width: 100%;
+}
+
+.footer-content {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.footer-icons a {
+  color: lightgray;
+  margin: 0 20px;
+  font-size: 25px;
+}
+
+.footer-icons i:hover {
+  color: #007bff;
+  transition: color 0.3s ease;
+}
 
 
 
